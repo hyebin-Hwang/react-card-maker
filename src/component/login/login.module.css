@@ -1,0 +1,57 @@
+@value makerGreen,makerWhite from "../../common/colors.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  background-color: makerGreen;
+  padding: 1rem 0;
+}
+.bottom {
+  background-color: makerGreen;
+  width: 40%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  padding: 1.5rem 0;
+  background-color: makerWhite;
+}
+.header_font {
+  color: makerWhite;
+}
+.img {
+  display: block;
+  width: 15%;
+}
+button {
+  width: 95%;
+  border-radius: 15px 15px;
+  margin: 0.7em 0;
+  padding: 0.7em 0;
+  background-color: makerWhite;
+  border: 2px solid makerGreen;
+  color: makerGreen;
+  outline: none;
+  cursor: pointer;
+}
+.content_h3 {
+  color: black;
+  padding-bottom: 1rem;
+}
+.bottom_p {
+  text-align: center;
+  color: makerWhite;
+  padding: 0.5em 0;
+}
