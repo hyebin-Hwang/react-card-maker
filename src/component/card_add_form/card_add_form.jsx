@@ -28,7 +28,7 @@ const CardAddForm = ({ onAdd} ) => {
       onAdd(card);
   };
   return (
-    <form ref={formRef}className={styles.form}>
+    <form ref={formRef} className={styles.form}>
       <input ref={nameRef} className={styles.input} type="text" name="name" placeholder="name" />
       <input ref={companyRef}
         className={styles.input}
